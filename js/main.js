@@ -146,10 +146,13 @@
   }
 
   function find_representatives(position) {
-    var lat = position.coords.latitude;
-    var lon = position.coords.longitude;
-    var reps = representatives_by_coordinate(lat, lon);
+    if (position) {
+      var lat = position.coords.latitude;
+      var lon = position.coords.longitude;
+      var reps = representatives_by_coordinate(lat, lon);
+    }
   }
+       
 
   function get_location() {
     geoPosition.getCurrentPosition(find_representatives, show_backup_div);
