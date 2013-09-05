@@ -1,0 +1,65 @@
+body {
+    font-family: "News Cycle", "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: "Indie Flower", "Comic Sans", "Helvetica", sans-serif;
+}
+
+.weird-old-tip {
+    font-family: "Indie Flower", "Comic Sans";
+    font-weight: bolder;
+    color: red;
+}
+
+.weird-old-trick {
+    font-family: "Indie Flower", "Comic Sans";
+    font-weight: bolder;
+    color: blue;
+}
+
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a, a:active, a:visited { color: blue; }
+
+a:hover { color: red; }
+
+.fake-link:hover { cursor: pointer; cursor: hand; }
+
+.rep-phone, .rep-twitter,
+.rep-facebook, .rep-contact-form  { padding-left: 2em; }
+
+.rep-name {
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Indie Flower", "Comic Sans";
+}
+
+.infobox {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#tellthem {
+    font-size: 125%;
+}
+
+#zip-form {
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
